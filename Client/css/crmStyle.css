@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+* {
+  box-sizing:border-box;
+  outline:0;
+}
+body {
+  background: #EEE;
+  font-family: 'Open Sans', sans-serif;
+  font-size:13px;
+}
+a, li {  
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+a {color:white; text-decoration:none;}
+li {list-style-type: none;}
+nav {
+  width: 140px;
+  height: auto;
+  float:left;
+  position:relative;
+  background:#333;
+  margin:0 auto;
+  padding: 10px 0;
+  color: white;
+  line-height:30px;
+  border-radius:5px;
+  box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+nav ul li {
+  position:relative;
+  padding: 0 20px;
+
+}
+nav ul li:hover {
+  background: crimson;
+  border-left: 5px solid #B31131;
+}
+nav ul li:hover:before {
+  content: '';
+  border-color: transparent #EEE transparent transparent ;
+  right: 0;
+  border-width:10px;
+  position: absolute;
+  border-style: solid;
+  top: 5px;
+}
+
+
+
+.wrapper {
+  width:450px;
+  margin:80px auto;
+}
+header {
+  width:260px;
+  height: 140px;
+  padding-top:45px;
+  float:left;
+  font-family: 'Sansita One';
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  color: crimson;
+  line-height:28px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+header p {
+  font-size: 15px;
+  line-height: 15px;
+  margin-left:70px;
+}
+footer {
+  width:100%;
+  height:50px;
+  float:left;
+  overflow:hidden;
+  margin-top:80px;
+}
+footer > p {
+  line-height:40px;
+  vertical-align:middle;
+  color: #333;
+  font-size:11px;
+  text-align:center;
+}
+footer a:link, footer a:visited, footer a:active {
+  color:crimson;
+  text-decoration:none;
+}
+footer a:hover {
+  width:200px;
+  color: white;
+  background: crimson;
+}
+.active {
+  background: crimson;
+  border-left: 5px solid #B31131;
+}
+.active:before {
+  content: '';
+  border-color: transparent #EEE transparent transparent ;
+  right: 0;
+  border-width:10px;
+  position: absolute;
+  border-style: solid;
+  top: 5px;
+}

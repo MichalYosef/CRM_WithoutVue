@@ -1,2 +1,2 @@
-# CRM_WithoutVue
-CRM project, without Vue (Still has a lot of problems...)
+# CRM_Project
+End to end crm project | excercising: php, mysql, javascript, jquery, ajax, html. includes OOD/OOP, DI

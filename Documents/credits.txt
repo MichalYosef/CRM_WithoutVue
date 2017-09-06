@@ -1,0 +1,29 @@
+javascript factory                    http://www.dofactory.com/javascript/factory-method-design-pattern
+
+for the main menu -                   https://codepen.io/ravenous/pen/sdAqm
+
+javascript command pattern            http://www.dofactory.com/javascript/command-design-pattern
+
+Dependency Injection container in php http://krasimirtsonev.com/blog/article/Dependency-Injection-in-PHP-example-how-to-DI-create-your-own-dependency-injection-container
+
+Vue.js 2.0 Fundamentals Great playlist  https://www.youtube.com/playlist?list=PLwAKR305CRO_1yAao-8aZiQnBqJeyng4O
+
+
+שאלות
+1. ערך של  משתנה גלובלי לא נשמר אחרי יציאה מפונקציה 
+navigateMainNav
+
+
+
+
+ TODO: dont forget to use:
+            <fieldset>
+    <legend>:</legend>
+ 
+  </fieldset>
+
+
+
+
+
+  Dependency injection in JavaScript  (2 complicated)  http://krasimirtsonev.com/blog/article/Dependency-injection-in-JavaScript
